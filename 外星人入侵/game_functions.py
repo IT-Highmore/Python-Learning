@@ -171,7 +171,7 @@ def change_fleet_direction(ai_settings, aliens):
   ai_settings.fleet_direction *= -1
 
 
-def update_aliens(ai_settings, stats, screen, ship, aliens, bullets):
+def update_aliens(ai_settings, stats, sb, screen, ship, aliens, bullets):
   """检查是否有外星人位于屏幕边缘，更新整群外星人的位置"""
   check_fleet_edges(ai_settings, aliens)
   aliens.update()
@@ -182,14 +182,16 @@ def update_aliens(ai_settings, stats, screen, ship, aliens, bullets):
     print('Ship hit!!!')
 
   # 检查是否有外星人到达屏幕底端
-  check_alens_bottom(ai_settings, stats, screen, ship, aliens, bullets)
+  check_alens_bottom(ai_settings, stats, sb, screen, ship, aliens, bullets)
 
 
-def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
+def ship_hit(ai_settings, stats, sb, screen, ship, aliens, bullets):
   """相应呗外星人撞到的船"""
   if stats.ship_left > 0:
     # 将ships_left 减一
     stats.ship_left -= 1
+    # 更新记分牌
+    sb.prep_ships()
     # 暂停
     sleep(0.5)
   else:
@@ -242,6 +244,7 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens,
     sb.prep_score()
     sb.prep_high_score()
     sb.prep_level()
+    sb.prep_ships()
 
     # 清空外星人列表和子弹列表
     aliens.empty()
