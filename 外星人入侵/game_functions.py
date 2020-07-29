@@ -105,6 +105,7 @@ def check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship, aliens, 
     for alien in collisions.values():
       stats.score += ai_settings.alien_points * len(alien)
       sb.prep_score()
+    check_high_score(stats, sb)
 
   if len(aliens) == 0:
     # 删除现有的子弹并新建一群外星人
@@ -209,6 +210,13 @@ def check_alens_bottom(ai_settings, stats, screen, ship, aliens, bullets):
       # 像飞船被撞到一样进行处理
       ship_hit(ai_settings, stats, screen, ship, aliens, bullets)
       break
+
+
+def check_high_score(stats, sb):
+  """检查是否诞生了最高分"""
+  if stats.score > stats.high_score:
+    stats.high_score = stats.score
+    sb.prep_high_score()
 
 
 def check_play_button(ai_settings, screen, stats, play_button, ship, aliens, bullets, mouse_x, mouse_y):
