@@ -36,7 +36,7 @@ def check_keyup_events(event, ship):
     ship.moving_left = False
 
 
-def check_events(ai_settings, screen, stats, play_button, ship, aliens, bullets):
+def check_events(ai_settings, screen, stats, sb, play_button, ship, aliens, bullets):
   """响应按键和鼠标事件"""
 
   for event in pygame.event.get():
@@ -51,7 +51,7 @@ def check_events(ai_settings, screen, stats, play_button, ship, aliens, bullets)
 
     elif event.type == pygame.MOUSEBUTTONDOWN:
       mouse_x, mouse_y = pygame.mouse.get_pos()
-      check_play_button(ai_settings, screen, stats, play_button, ship, aliens, bullets, mouse_x, mouse_y)
+      check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens, bullets, mouse_x, mouse_y)
 
 
 def update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button):

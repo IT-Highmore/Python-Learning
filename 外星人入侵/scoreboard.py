@@ -1,5 +1,5 @@
 import pygame.font
-from  pygame.sprite import Group
+from pygame.sprite import Group
 from ship import Ship
 
 class Scoreboard():
@@ -23,10 +23,10 @@ class Scoreboard():
     # 初始等级
     self.pre_level()
 
-    self.pre_ship()
+    self.pre_ships()
 
 
-  def pre_ship(self):
+  def pre_ships(self):
     """显示还余下多少飞船"""
     self.ships = Group()
     for ship_number in range(self.stats.ships_left):
@@ -37,7 +37,7 @@ class Scoreboard():
 
 
   def pre_level(self):
-    self.level_image = self.fon .render(str(self.stats.level), True, self.text_color, self.ai_settings.bg_color)
+    self.level_image = self.font.render(str(self.stats.level), True, self.text_color, self.ai_settings.bg_color)
 
     """将等级放在得分下方"""
     self.level_rect = self.level_image.get_rect()
