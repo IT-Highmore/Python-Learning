@@ -108,9 +108,14 @@ def check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship, aliens, 
     check_high_score(stats, sb)
 
   if len(aliens) == 0:
-    # 删除现有的子弹并新建一群外星人
+    # 删除现有的子弹并新建一群外星人  如果一群外星人被消灭就提升一个等级
     bullets.empty()
-    ai_settings.inceease_speed()
+    ai_settings.incease_speed()
+
+    # 提高等级
+    stats.level += 1
+    sb.prep_level()
+
     create_fleet(ai_settings, screen, ship, aliens)
 
 
@@ -219,7 +224,7 @@ def check_high_score(stats, sb):
     sb.prep_high_score()
 
 
-def check_play_button(ai_settings, screen, stats, play_button, ship, aliens, bullets, mouse_x, mouse_y):
+def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens, bullets, mouse_x, mouse_y):
   """在玩家点击Play按钮的时候开始游戏"""
   button_clickd = play_button.rect.collidepoint(mouse_x, mouse_y)
 
@@ -232,6 +237,11 @@ def check_play_button(ai_settings, screen, stats, play_button, ship, aliens, bul
     # 重置游戏统计信息
     stats.reset_stats()
     stats.game_active = True
+
+    # 重置记分牌图像
+    sb.prep_score()
+    sb.prep_high_score()
+    sb.prep_level()
 
     # 清空外星人列表和子弹列表
     aliens.empty()
