@@ -20,6 +20,22 @@ def sum(nums, target):
 
 sum([2, 7, 11, 15,8,4], 6)
 
+
+"""
+JavaScript 方法
+sum(nums, target) {
+  for(let i = 0; i < nums.length; i++) {
+    let another_num = target - nums[i]
+    for(let j =i +1; j < nums.length; j++) {
+      if(another_num == nums[j]) {
+        return [i,j]
+      }
+    }
+  }
+}
+
+"""
+
 """
 运行结果
 0 2

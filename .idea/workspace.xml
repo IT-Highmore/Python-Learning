@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d10300d4-0848-4d18-aa4b-1e9d7009fe43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/answer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,21 +12,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/answer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="237">
+              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转/answer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/question.md">
+        <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转/question.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="304">
-                <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,14 +81,16 @@
         <option value="$PROJECT_DIR$/python每日一题/20200731两数之和/question.md" />
         <option value="$PROJECT_DIR$/python每日一题/README.md" />
         <option value="$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/question.md" />
+        <option value="$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转/question.md" />
         <option value="$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/answer.py" />
+        <option value="$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转/answer.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="228" />
-    <option name="y" value="51" />
-    <option name="width" value="1123" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="y" value="118" />
+    <option name="width" value="1383" />
     <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -126,6 +137,14 @@
             <path>
               <item name="从python入门到实践" type="b2602c69:ProjectViewProjectNode" />
               <item name="从python入门到实践" type="462c0819:PsiDirectoryNode" />
+              <item name="python每日一题" type="462c0819:PsiDirectoryNode" />
+              <item name="简单" type="462c0819:PsiDirectoryNode" />
+              <item name="题目" type="462c0819:PsiDirectoryNode" />
+              <item name="20200803整数反转" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="从python入门到实践" type="b2602c69:ProjectViewProjectNode" />
+              <item name="从python入门到实践" type="462c0819:PsiDirectoryNode" />
               <item name="从python入门到实践" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.answer">
+  <component name="RunManager" selected="Python.answer (1)">
     <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="武装飞船" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +194,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="answer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="武装飞船" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转/answer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,6 +248,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.answer (1)" />
         <item itemvalue="Python.answer" />
         <item itemvalue="Python.alien_invasion" />
       </list>
@@ -232,12 +274,12 @@
       <workItem from="1593702578044" duration="2386000" />
       <workItem from="1594735695828" duration="1184000" />
       <workItem from="1594736899414" duration="315000" />
-      <workItem from="1596200124511" duration="3108000" />
+      <workItem from="1596200124511" duration="6380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26041000" />
+    <option name="totallyTimeSpent" value="29313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,15 +291,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="55" y="118" width="1383" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18568233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27831325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,6 +326,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1596204203565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$answer.coverage" NAME="answer Coverage Results" MODIFIED="1596205706297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和" />
+    <SUITE FILE_PATH="coverage/python$answer__1_.coverage" NAME="answer (1) Coverage Results" MODIFIED="1596425454074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转" />
     <SUITE FILE_PATH="coverage/$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1594736901795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -403,6 +446,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/question.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -413,10 +463,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200731两数之和/answer.py">
+    <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转/question.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python每日一题/简单/题目/20200803整数反转/answer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="137">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
